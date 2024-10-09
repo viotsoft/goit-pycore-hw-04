@@ -25,7 +25,7 @@ def print_directory_structure(path: Path, prefix: str = ""):
 
 def main():
     if len(sys.argv) != 2:
-        print(Fore.YELLOW + "Використання: python hw03.py /шлях/до/вашої/директорії")
+        print(Fore.YELLOW + "Використання: python main.py /шлях/до/вашої/директорії")
         return
     
     path = Path(sys.argv[1])
